@@ -9,7 +9,9 @@ Create .env file - cp .env.example.env
 
 Link storage - php artisan Storage:link
 
-Migrate Database - php artisan migrate
+Create Database 'todo_list_l' and migrate Database - php artisan migrate
+
+Run app - php artisan serve
 
 
 ### Description
