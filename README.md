@@ -1,17 +1,21 @@
 ### Instructions:
 Clone project
+>git clone https://github.com/ArtursAsi/ToDoList
 
-git clone https://github.com/ArtursAsi/ToDoList
+Install Composer
+>composer install
 
-composer install
+Create .env file  
+>cp .env.example.env
 
-Create .env file - cp .env.example.env
+Link storage 
+>php artisan Storage:link
 
-Link storage - php artisan Storage:link
+Create Database 'todo_list_l' and migrate Database 
+>php artisan migrate
 
-Create Database 'todo_list_l' and migrate Database - php artisan migrate
-
-Run app - php artisan serve
+Run app 
+>php artisan serve
 
 
 ### Description
